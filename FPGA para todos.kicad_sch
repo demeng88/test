@@ -1,0 +1,1147 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c6ba5cca-c2cf-4dd3-9797-aa414626cd3d")
+	(paper "A4")
+	(title_block
+		(title "EDU-FPGA")
+		(date "2020-05-07")
+		(rev "1.2")
+		(company "UTN - Facultad Regional Haedo - Grupo ASE")
+	)
+	(lib_symbols)
+	(junction
+		(at 85.725 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096e1dc0-4b1c-4033-a6fe-a256bffda10e")
+	)
+	(junction
+		(at 78.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caae4504-a0d2-41f8-a1e3-ee590d2273b3")
+	)
+	(junction
+		(at 88.265 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea446539-b5fa-41e1-908c-4cde18e648d7")
+	)
+	(junction
+		(at 81.28 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee58266-d03d-4240-bb02-990b109514b4")
+	)
+	(wire
+		(pts
+			(xy 85.725 48.26) (xy 269.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07130d56-0984-4993-8173-eca9d3da169b")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b70b998-ad5e-4e93-b290-15b1f9285582")
+	)
+	(wire
+		(pts
+			(xy 88.265 50.165) (xy 267.335 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1a9a24-6120-4363-bcc1-95dd4da0f4db")
+	)
+	(wire
+		(pts
+			(xy 81.28 78.74) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2106aff7-658c-4121-ab47-4a9a146a2e20")
+	)
+	(bus
+		(pts
+			(xy 190.5 64.77) (xy 204.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4079aa33-9d47-4b9c-ac8c-6f91478c45a6")
+	)
+	(bus
+		(pts
+			(xy 190.5 71.12) (xy 204.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e14447-8a87-40fb-aaf1-ce52b24bf3d6")
+	)
+	(wire
+		(pts
+			(xy 88.265 66.04) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44326b71-82b4-4f07-9d29-6c09767ee7ce")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4612df80-3ace-491f-b9da-979bbfee2617")
+	)
+	(wire
+		(pts
+			(xy 85.725 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e991f7b-a796-4708-822b-d60ebd323c72")
+	)
+	(wire
+		(pts
+			(xy 83.185 46.355) (xy 83.185 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6ec96b-1035-4723-a38e-c0e7c72cbbce")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50281b05-acf6-4fba-87f6-80eab55f0837")
+	)
+	(wire
+		(pts
+			(xy 88.265 66.04) (xy 88.265 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5463164b-bc85-4aec-bc0b-829cb6744bf6")
+	)
+	(polyline
+		(pts
+			(xy 201.295 115.57) (xy 201.295 42.545)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5aa25a66-0883-4882-a2fc-a2006ed94bfb")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcf9978-eab5-433b-9edf-e3381c817c6c")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651e817f-90c6-45c2-a7b4-50c670a220b2")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d071f31-8f61-4ca3-b66b-3b0b1ef832e0")
+	)
+	(polyline
+		(pts
+			(xy 201.295 115.57) (xy 280.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6f1d24fc-4064-49da-abb4-da86be51bde8")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cd733a-8ca6-4cdb-84c1-056a2159f0d2")
+	)
+	(wire
+		(pts
+			(xy 263.525 66.675) (xy 271.78 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73320858-20fb-4b70-9676-b8375a538158")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5900ad-0e75-4e94-9567-fc4ea13bd918")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83448716-4196-4867-a6f0-f1c70dfe1bd5")
+	)
+	(wire
+		(pts
+			(xy 267.335 50.165) (xy 267.335 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877a7e91-04c3-4947-a51a-ceefdb7f7c19")
+	)
+	(wire
+		(pts
+			(xy 271.78 46.355) (xy 83.185 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e99328-6950-4ae9-8d95-6af0cb7b0949")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89166c14-7fba-489f-b5b1-8cf5a23512bb")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939992dd-8db3-4bb5-b4d5-f8463158f018")
+	)
+	(bus
+		(pts
+			(xy 190.5 58.42) (xy 204.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16c2033-67d7-4ad8-bc5b-b2259ff4bf3c")
+	)
+	(polyline
+		(pts
+			(xy 280.67 42.545) (xy 280.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a2535c56-8312-479b-a46d-a77910f2e179")
+	)
+	(wire
+		(pts
+			(xy 271.78 66.675) (xy 271.78 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b7387b-7547-487f-b3ee-a419b9df5339")
+	)
+	(polyline
+		(pts
+			(xy 201.295 42.545) (xy 280.67 42.545)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "aa96982f-1955-4a02-99ec-a5a9330b57b9")
+	)
+	(polyline
+		(pts
+			(xy 27.305 115.57) (xy 27.305 44.45)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b0d9bd1e-56c1-421c-b0d8-48d055df62a1")
+	)
+	(bus
+		(pts
+			(xy 190.5 77.47) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5134921-7ff5-42d3-9d6f-7f4e6856ff76")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9499d62-0eca-4e50-bf99-9405de1c1e7c")
+	)
+	(polyline
+		(pts
+			(xy 27.305 44.45) (xy 196.215 44.45)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c0b37136-208b-43c4-821a-84afefacd8d7")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d051ab-7ce7-4bf3-97d5-01bbb21e8088")
+	)
+	(polyline
+		(pts
+			(xy 196.215 44.45) (xy 196.215 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c920a043-6890-430b-b630-5732a4984f56")
+	)
+	(polyline
+		(pts
+			(xy 196.215 115.57) (xy 27.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ca29b25a-e72e-4e9a-b036-2eeaafeaaf73")
+	)
+	(wire
+		(pts
+			(xy 85.725 68.58) (xy 85.725 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6cc974-b07f-4602-9ec1-fec7b3d797bd")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 81.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01042b9-8cee-4a6e-bb19-9c855a98cbdf")
+	)
+	(wire
+		(pts
+			(xy 69.85 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cd1c95-bae0-4e49-ae19-6b937f7d274e")
+	)
+	(wire
+		(pts
+			(xy 269.24 48.26) (xy 269.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4519a0-9d9e-43dd-b1a0-53d10273eee0")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 83.185 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1938388-408b-4b0a-80b1-841a7c69e5c1")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33134a8-8bbb-4530-99cb-dc3444a8dedd")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 88.265 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a51f65-7e26-45c9-8e30-d786890accb7")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 85.725 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b71e1b-afba-4304-8298-d622ddb552dd")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb25ff06-a108-4322-9a38-65294c1a85c8")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebb1a03-f87b-4efc-a487-f72c66540f1c")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f218e43b-8d17-42d2-8eae-b45379c8f410")
+	)
+	(wire
+		(pts
+			(xy 267.335 59.69) (xy 263.525 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f961b917-8a74-49ff-b8fb-4ff33fba87fd")
+	)
+	(wire
+		(pts
+			(xy 269.24 63.5) (xy 263.525 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcab4c1f-791b-42ff-8c26-518a0fdb3ccb")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd78e428-0841-4025-a8e5-1f810a0ab6b2")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd96db94-6a08-46c6-99a6-848c5a34d938")
+	)
+	(text "User Peripherals"
+		(exclude_from_sim no)
+		(at 205.105 114.3 0)
+		(effects
+			(font
+				(size 2.2606 2.2606)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a25e2ff-1087-4987-ac39-44df6373afc5")
+	)
+	(text "Core: Power supply + FTDI Interface + FPGA banks"
+		(exclude_from_sim no)
+		(at 31.115 112.395 0)
+		(effects
+			(font
+				(size 2.2606 2.2606)
+			)
+			(justify left bottom)
+		)
+		(uuid "727e0d25-35c6-4dd9-a266-46fdf49e4b62")
+	)
+	(label "5V_USB"
+		(at 74.93 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aebf536d-c5be-4f37-8e3f-f5ce2b23087f")
+	)
+	(sheet
+		(at 31.75 53.34)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005bbd01b2")
+		(property "Sheetname" "Power"
+			(at 31.75 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 31.75 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 69.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21f24621-e37f-49ca-b71a-9090276d1f53")
+		)
+		(pin "5V" input
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04d6b746-c706-44b0-b6f4-82605eea0eca")
+		)
+		(pin "5V_USB" input
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2aa288f-0bf2-4333-8451-8ef03437883e")
+		)
+		(pin "GND" input
+			(at 69.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "441beb8f-95e3-4fdb-a84c-757d8b858b1c")
+		)
+		(pin "USB_DM" input
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb6f4b27-eae1-4ac8-9a20-283e71a7e621")
+		)
+		(pin "USB_DP" input
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fb1fd81-1f15-4225-bf8b-be818bf07c5e")
+		)
+		(pin "1.2V" input
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7dd7fa74-09ae-48b1-bad5-54e23b8dbfdc")
+		)
+		(instances
+			(project "FPGA para todos"
+				(path "/c6ba5cca-c2cf-4dd3-9797-aa414626cd3d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 74.93)
+		(size 35.56 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005c8fb30b")
+		(property "Sheetname" "FTDI_config"
+			(at 109.22 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FTDI_config.kicad_sch"
+			(at 109.22 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 109.22 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6caa2fe-9fb9-45fc-845c-f60b1759fca1")
+		)
+		(pin "USB_DP" input
+			(at 109.22 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcb94aa5-fde6-4073-90c0-6cde14378791")
+		)
+		(pin "USB_DM" input
+			(at 109.22 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ce1b754-5826-4449-b1e2-60f781f2f13a")
+		)
+		(pin "GND" input
+			(at 109.22 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc882169-8ff5-43ec-b620-4774786ab1eb")
+		)
+		(pin "FPGA_CLOCK" input
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1505d80-65fa-483c-ba63-06e002ee1e38")
+		)
+		(pin "Rx" input
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24b0a19e-0ed9-4a3b-83eb-99132c587408")
+		)
+		(pin "Tx" input
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b808702-6dae-42d8-b2d3-6f7bc4074d94")
+		)
+		(pin "RTS" input
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d819b2c-a610-4c52-bbe4-e333698ef8d7")
+		)
+		(pin "CTS" input
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99a8a9f4-c95d-404e-8450-554a04ead6fd")
+		)
+		(pin "DTR" input
+			(at 144.78 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75c829a0-37e1-45cf-b083-8ba61ef99485")
+		)
+		(pin "DSR" input
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3dc73e6-0bb7-4fcf-8cea-1fc83870023c")
+		)
+		(pin "DCD" input
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1770f0b-01eb-4829-bd70-d8ea3a3a64e1")
+		)
+		(instances
+			(project "FPGA para todos"
+				(path "/c6ba5cca-c2cf-4dd3-9797-aa414626cd3d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 54.61)
+		(size 39.37 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005c9401b5")
+		(property "Sheetname" "FPGA_banks"
+			(at 151.13 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_banks.kicad_sch"
+			(at 151.13 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Rx" input
+			(at 151.13 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbb490ef-899c-41ab-86ef-61e6a9ec5ae4")
+		)
+		(pin "Tx" input
+			(at 151.13 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b974e94d-99b7-4002-a1f2-3aea550ec07f")
+		)
+		(pin "RTS" input
+			(at 151.13 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c114c6df-c6e4-4ee2-9293-621e4152da85")
+		)
+		(pin "CTS" input
+			(at 151.13 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a23c7f92-1720-4445-82f9-9af50bcd83fd")
+		)
+		(pin "DTR" input
+			(at 151.13 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db4626b4-8f92-47ac-95df-5c3d0fc4841d")
+		)
+		(pin "DSR" input
+			(at 151.13 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "13d33dd8-eb24-4cd8-9ebc-8f5ae6d5648e")
+		)
+		(pin "DCD" input
+			(at 151.13 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "11049dd3-7328-4fd1-a09d-fc9d4b50461b")
+		)
+		(pin "FPGA_CLOCK" input
+			(at 151.13 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fa30ce1-27c2-4abc-8d1a-51620797f9f3")
+		)
+		(pin "GND" input
+			(at 151.13 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e28182f0-f38d-4a53-b4fc-158b481976e8")
+		)
+		(pin "3.3V" input
+			(at 151.13 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "442ae97f-856e-441a-917d-eab884f2a816")
+		)
+		(pin "1.2V" input
+			(at 151.13 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afcea7f8-d26a-4baa-bbfb-7e813a0bbc0f")
+		)
+		(pin "B0[1..17]" input
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "166f8a51-f0dd-442f-932e-07a59741a331")
+		)
+		(pin "B2[1..10]" input
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e32a64d-f522-4739-90fd-f42bcec75f0d")
+		)
+		(pin "B1[1..21]" input
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac08a41f-a477-473a-949a-5ea2ee58c8d9")
+		)
+		(pin "B3[1..20]" input
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff38da4f-1425-4698-884a-4b4bf06be243")
+		)
+		(instances
+			(project "FPGA para todos"
+				(path "/c6ba5cca-c2cf-4dd3-9797-aa414626cd3d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 54.61)
+		(size 59.055 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cc47b0d")
+		(property "Sheetname" "Peripherals"
+			(at 204.47 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 204.47 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 263.525 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d7ea8ec-7b9a-4e3c-8060-72b4ee94bcb3")
+		)
+		(pin "GND" input
+			(at 263.525 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "064a2ab3-9274-4963-8942-5ff439af5176")
+		)
+		(pin "B0[1..17]" input
+			(at 204.47 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57065c62-c948-472a-a695-c687d82f3a0f")
+		)
+		(pin "B2[1..10]" input
+			(at 204.47 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4752a18c-fdf5-4323-be1e-442993f4c458")
+		)
+		(pin "B1[1..21]" input
+			(at 204.47 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23be9ecd-d0e0-4d2d-8763-3905f0884f06")
+		)
+		(pin "B3[1..20]" input
+			(at 204.47 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2c7bdee5-8035-458a-b06a-6da063a8c23f")
+		)
+		(pin "5V" input
+			(at 263.525 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f073e78a-65ef-4969-a377-1df0ac03a0de")
+		)
+		(instances
+			(project "FPGA para todos"
+				(path "/c6ba5cca-c2cf-4dd3-9797-aa414626cd3d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
