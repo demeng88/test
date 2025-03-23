@@ -1,0 +1,7066 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "015be6f9-3075-456d-bb18-9c73124273a3")
+	(paper "A4")
+	(title_block
+		(title "Power Supply")
+		(date "2020-04-19")
+		(rev "1.2")
+		(company "UTN - Facultad Regional Haedo - Grupo ASE")
+	)
+	(lib_symbols
+		(symbol "FPGA para todos-rescue:+1V2-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_+1V2-power"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V2-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V2-power-FPGA-para-todos-rescue_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+1V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:+3.3V-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_+3.3V-power"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V-power-FPGA-para-todos-rescue_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:+5V-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_+5V-power"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V-power-FPGA-para-todos-rescue_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:+5VP-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_+5VP-power"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VP-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP-power-FPGA-para-todos-rescue_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:C-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_C-Device"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-Device-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:CP1_Small-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_CP1_Small-Device"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP1_Small-Device-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 -0.762)
+					(mid 0 -0.3734)
+					(end -1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP1_Small-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:D_Zener-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_D_Zener-Device"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener-Device-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:Ferrite_Bead-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_Ferrite_Bead-Device"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ferrite_Bead-Device-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ferrite_Bead-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:GND-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_GND-power"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power-FPGA-para-todos-rescue_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:LED_ALT-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_LED_ALT-Device"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_ALT-Device-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_ALT-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_PWR_FLAG-power"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG-power-FPGA-para-todos-rescue_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG-power-FPGA-para-todos-rescue_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:R-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_R-Device"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-Device-FPGA-para-todos-rescue_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:R_Small-Device-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_R_Small-Device"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small-Device-FPGA-para-todos-rescue_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small-Device-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FPGA para todos-rescue:TestPoint-Connector-FPGA-para-todos-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FPGA-para-todos-rescue_TestPoint-Connector"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint-Connector-FPGA-para-todos-rescue_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint-Connector-FPGA-para-todos-rescue_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LD1117xxx:LD1117S12"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S12"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -8.89 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117S12_1_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end 5.08 3.175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "TAB"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LD1117xxx:LD1117S33"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S33"
+				(at 0.635 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117S33_0_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end 5.08 3.175)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117S33_1_1"
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "TAB"
+						(effects
+							(font
+								(size 0.6604 0.6604)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.0668 1.0668)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "USB:micro_usb_b"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "micro_usb_b"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -11.43 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "micro_usb_b_0_1"
+				(rectangle
+					(start -3.81 -7.62)
+					(end 3.81 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "micro_usb_b_1_1"
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "shield"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "shield"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "shield"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "shield"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 83.82 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05cdb225-62e3-4163-956c-72b5be6fc11f")
+	)
+	(junction
+		(at 148.59 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd73e00-b7e1-4815-a24e-a259ce68bfbc")
+	)
+	(junction
+		(at 250.19 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f1f730d-6699-4aaa-a54e-233e262caed2")
+	)
+	(junction
+		(at 24.13 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12cd98ae-e22c-446d-b3c9-c1fc91a0d3d6")
+	)
+	(junction
+		(at 24.13 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1530d26b-1384-49b4-9bf0-f16b111eed40")
+	)
+	(junction
+		(at 257.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1afe79b8-5076-4cc0-81a4-6af81f1ec6dc")
+	)
+	(junction
+		(at 190.5 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220fc435-e5eb-40b1-bae4-5495aedf6cb8")
+	)
+	(junction
+		(at 106.68 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24282922-6745-4c4b-8bdf-580b46f4d65c")
+	)
+	(junction
+		(at 48.26 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c4a01f-3543-4866-b1e5-e5d151059dde")
+	)
+	(junction
+		(at 160.02 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e47eb5-d4fb-4f07-b015-11cfffa83fa9")
+	)
+	(junction
+		(at 165.1 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c00836-9196-44a9-ac1b-4d7bfa138e01")
+	)
+	(junction
+		(at 83.82 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c20f52a-3e5d-4d54-8013-f18b1e781974")
+	)
+	(junction
+		(at 153.67 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb46d96-084f-4687-82e4-8b4f1d1ded5a")
+	)
+	(junction
+		(at 58.42 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b2ab76-4226-45c3-b974-0419ba571cba")
+	)
+	(junction
+		(at 118.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42525d01-bb9a-4785-8b8e-2ef35456ec42")
+	)
+	(junction
+		(at 179.07 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507fd5b7-43bb-4ec2-afcc-86868cbf4197")
+	)
+	(junction
+		(at 66.04 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c2e528-f435-4285-b52a-2c0d08fe9ed6")
+	)
+	(junction
+		(at 190.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef8af05-8563-47ad-813d-acd224330134")
+	)
+	(junction
+		(at 217.17 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "672d5b31-7738-40f2-943a-155506903ad3")
+	)
+	(junction
+		(at 134.62 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fffb19b-bf6d-448c-97e5-684c6d3bd9c5")
+	)
+	(junction
+		(at 134.62 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "781bb952-1951-4a12-9022-ecc1438d51ac")
+	)
+	(junction
+		(at 24.13 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a23cefd-3679-463d-a7e4-9a1af65878da")
+	)
+	(junction
+		(at 175.26 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8075a5c2-fc3f-4327-aa25-6bd7d87bee1b")
+	)
+	(junction
+		(at 162.56 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84127927-1271-410b-b410-7befa34c1425")
+	)
+	(junction
+		(at 90.17 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a2b7be5-c50b-4999-8ddf-9510f84e0251")
+	)
+	(junction
+		(at 95.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a810906c-8239-4351-936f-8d2e24e5c76c")
+	)
+	(junction
+		(at 66.04 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b26371dd-7c9b-4d8e-bad7-9edd76a4ccd6")
+	)
+	(junction
+		(at 262.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3c1600-9154-40eb-8e56-dbec17b67360")
+	)
+	(junction
+		(at 99.06 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc28a6f9-080a-4a79-bbaf-34f88c622dca")
+	)
+	(junction
+		(at 179.07 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ac48d7-774e-4a33-acf5-b4ee21a6baaa")
+	)
+	(junction
+		(at 106.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c442b1e0-5778-4f4e-8265-98cec1c9a4c7")
+	)
+	(junction
+		(at 140.97 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad6d426-584a-47c2-a273-9b2f91952ca2")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc9a92f3-7934-45c0-94c8-11dde4519ffd")
+	)
+	(junction
+		(at 129.54 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe7c78a-67ce-44f6-8a3a-16ff02add1d0")
+	)
+	(junction
+		(at 58.42 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d491dda8-304b-44ab-89f8-b021bd0f66e4")
+	)
+	(junction
+		(at 222.25 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac0df12-81f2-4bd5-83f4-3db8a4f36fe2")
+	)
+	(junction
+		(at 46.99 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de038011-ca0f-42d5-b501-811a93483260")
+	)
+	(junction
+		(at 207.01 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7141056-367e-498e-8f37-3f7cee8c8475")
+	)
+	(junction
+		(at 222.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23510d0-efb7-4493-be6a-08fbf587c3f9")
+	)
+	(junction
+		(at 232.41 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4284374-b043-46ba-8b00-dd211266e51c")
+	)
+	(junction
+		(at 95.25 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90eaa09-074e-4541-8dcb-b57f1fe39df7")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 46.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0362fb04-fb8f-418e-8672-4d3f1cc8458c")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048b3f18-d5f4-49d4-b916-0a68569095cf")
+	)
+	(wire
+		(pts
+			(xy 217.17 76.2) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0645ae4a-8c88-4423-a617-645680345078")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069d7914-0ab4-4040-82c5-72121aaaca94")
+	)
+	(wire
+		(pts
+			(xy 106.68 77.47) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079ab073-e467-464f-88b9-4aedac5afd5b")
+	)
+	(wire
+		(pts
+			(xy 24.13 87.63) (xy 24.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0924d95c-3b35-4794-b90a-6bd63748aa51")
+	)
+	(polyline
+		(pts
+			(xy 238.76 90.17) (xy 229.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0cbcf7de-cffb-48b0-88dd-bb60956ba1e6")
+	)
+	(polyline
+		(pts
+			(xy 186.69 58.42) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "112b617f-0253-4352-aad3-24c50798f43f")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115e17e7-d1bb-488f-82c6-ce6b78f505fd")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a513589-cf96-4f07-b072-92cbe6d4f880")
+	)
+	(wire
+		(pts
+			(xy 46.99 92.71) (xy 46.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b73ef32-efa9-4a17-af60-9935fcbd4017")
+	)
+	(wire
+		(pts
+			(xy 48.26 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f58d59c-9731-4c47-86aa-350feec2244a")
+	)
+	(polyline
+		(pts
+			(xy 148.59 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "208841cd-ff76-42f5-addc-2af2e04757af")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264bd695-c03b-4eef-875f-e9be373c4734")
+	)
+	(polyline
+		(pts
+			(xy 229.87 81.28) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "279779b6-2539-4a25-8613-b1e66e706d96")
+	)
+	(polyline
+		(pts
+			(xy 229.87 90.17) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "27fa50e8-c926-477d-8494-df0f5e937e2b")
+	)
+	(wire
+		(pts
+			(xy 48.26 85.09) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2901d5a4-eab8-4432-9089-fbc8b211766e")
+	)
+	(wire
+		(pts
+			(xy 271.78 76.2) (xy 262.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d24dfab-4f0f-4dd0-8361-30c99a4da06d")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d915e93-54ed-4aa1-845c-414465c49667")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e34dfad-5c23-4e2f-a75f-59bee769e2a9")
+	)
+	(wire
+		(pts
+			(xy 24.13 100.33) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea6af5c-ae3f-4bde-aecd-19fa2d983a5d")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33549b5d-a9ff-4e43-a34f-db2b679aad64")
+	)
+	(polyline
+		(pts
+			(xy 118.11 58.42) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "33e1e85f-30f8-4a4b-a296-1afa6692f3c8")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3727ddc4-3b98-4147-bc0e-5dcebac2e960")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3837e3e3-f336-4773-819e-70e3e26ac9d1")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad2c6c8-4340-4342-8295-9e5b74ad103c")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9f1871-1085-4b93-bedc-69bed5f10082")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6d53df-0667-4367-a92f-c62e98d3a8c5")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed3735b-7e92-48ff-8289-0f0b6830b636")
+	)
+	(wire
+		(pts
+			(xy 207.01 95.25) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cdebdc-abb6-4cb9-a421-9f5c838f8b62")
+	)
+	(wire
+		(pts
+			(xy 24.13 92.71) (xy 24.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e22e68-5a95-44d7-a1e1-677143e43ec3")
+	)
+	(wire
+		(pts
+			(xy 95.25 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4883be11-5974-43ec-aace-cfb3b6d170d7")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2b7427-892a-4396-9a2e-f01c2714eabb")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e410e2b-5a00-4f24-a706-05be1fc508cb")
+	)
+	(wire
+		(pts
+			(xy 257.81 76.2) (xy 262.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506899b1-6748-4ba2-b7b1-937f23e178e3")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e2eaa0-1e08-455e-86d6-904bec6356a0")
+	)
+	(wire
+		(pts
+			(xy 222.25 87.63) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51605a2a-d298-452d-9a11-83174c683961")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 46.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c12917-14e8-46db-a37f-9ef9feec4234")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541c8fd6-f818-43b3-96b0-a236d15559d3")
+	)
+	(wire
+		(pts
+			(xy 179.07 95.25) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55014fa7-6514-4090-9e04-f7a9c476cf5f")
+	)
+	(wire
+		(pts
+			(xy 90.17 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573faf8b-a4a1-4a6f-b1f4-490f03d51dfa")
+	)
+	(wire
+		(pts
+			(xy 46.99 95.25) (xy 58.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599f305e-9d55-4313-8f4a-7f7a3027b18a")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adbc650-19e2-43c8-8cc1-178def069699")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf5f813-1245-4c07-a5e0-2f6ed10fa17d")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1678fd-f7a9-4187-9b48-b321fafa74ad")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c6353b-6983-413a-8bea-7ca74090ce59")
+	)
+	(wire
+		(pts
+			(xy 214.63 78.74) (xy 217.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662cf59f-3377-40a1-932e-2b7c50c629dc")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 58.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a38200a-e57a-4867-b9c7-4a2e079d1e4f")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 46.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b942fbd-867d-4e7f-8bce-a7623fbc4848")
+	)
+	(wire
+		(pts
+			(xy 207.01 83.82) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be48fd8-d82d-4050-ab9a-03335734b2b5")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7e660e-b4f8-4680-8f14-71afc28755a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721b8d6f-2f63-4ada-b6de-efdb222acbcf")
+	)
+	(wire
+		(pts
+			(xy 66.04 95.25) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774eb199-b318-4b48-9bf4-c54f25b3e989")
+	)
+	(wire
+		(pts
+			(xy 232.41 95.25) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e87e6e-d4c8-44b3-ac1b-fd66c762812d")
+	)
+	(wire
+		(pts
+			(xy 24.13 95.25) (xy 24.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd14442-f18b-4dde-a375-a4d07b17d9a7")
+	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811726e7-d6b8-49bc-9f20-a3f938c32f0b")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b238d5-034c-41bf-a261-00f8da98f6f2")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83604b6d-cd9a-4d40-8477-2496a2eab7c8")
+	)
+	(wire
+		(pts
+			(xy 232.41 95.25) (xy 232.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8380d3a5-384b-4729-bb77-e2716c41e213")
+	)
+	(wire
+		(pts
+			(xy 44.45 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d16630-5f5b-4bfa-aee0-ebb022080417")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8cc594-b8d1-4fc2-9a68-9d7d930478c2")
+	)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 66.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb82499-2937-4038-8246-d58557acdda0")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d23069b-860b-4aa5-95cc-ec3aac248896")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3d6fc1-499f-4b75-bee2-7479845d3dca")
+	)
+	(wire
+		(pts
+			(xy 234.95 76.2) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da5bb7e-6cc3-4825-8928-514f91313721")
+	)
+	(wire
+		(pts
+			(xy 58.42 95.25) (xy 66.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98436cd5-7a36-4ecb-8152-0b05989f32b1")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 39.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bffaafc-2618-4c77-8651-9843289d9052")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0b77e6-0d58-4e39-8814-39337a16c996")
+	)
+	(wire
+		(pts
+			(xy 242.57 76.2) (xy 250.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dee8354-e05f-4b98-be92-cf12af68f150")
+	)
+	(wire
+		(pts
+			(xy 25.4 95.25) (xy 24.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0de26ca-6e47-47a5-bb55-37942a077f8b")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b1e756-d6ee-4823-80dd-1649a8ade074")
+	)
+	(wire
+		(pts
+			(xy 250.19 76.2) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c48f55-41ac-4373-8ee9-9500cb900d46")
+	)
+	(wire
+		(pts
+			(xy 25.4 87.63) (xy 24.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e56f69-5632-4878-85aa-632614771c1a")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b03d35-e997-4210-8a61-8e349639c3f7")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ed2a9b-7544-4a8b-9551-05b8aacf10f4")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a785fee6-7221-430a-9a75-0a0f4f9404b0")
+	)
+	(wire
+		(pts
+			(xy 83.82 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fe2de5-6987-4940-8841-677efd005f0d")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3e3800-4411-4bf9-b205-dde3ff0df692")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05d44e5-d947-4677-ab12-740f47fa3f60")
+	)
+	(wire
+		(pts
+			(xy 232.41 76.2) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4001c63-c141-4e71-96e0-73c5f9d03bd3")
+	)
+	(polyline
+		(pts
+			(xy 207.01 58.42) (xy 207.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b5c122a1-be6b-4985-a119-7a16b32846c3")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9af0390-5127-412b-a00c-c313faa82665")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b9f52a-3916-4430-a920-35643355ce43")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08fdaf-82ff-4cab-8059-a9d4d409d299")
+	)
+	(wire
+		(pts
+			(xy 24.13 90.17) (xy 24.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5b3cde-da35-4b35-b0f6-d4994702ace8")
+	)
+	(polyline
+		(pts
+			(xy 238.76 81.28) (xy 238.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c14e6e25-a17a-4a28-90e8-aff7b9275d1c")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19d210d-ad39-4cd4-84f8-64399159d55a")
+	)
+	(wire
+		(pts
+			(xy 25.4 92.71) (xy 24.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47863b9-b7ce-4a4d-9e4b-e508c8e0fd92")
+	)
+	(wire
+		(pts
+			(xy 58.42 82.55) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd71034d-66d4-4ee5-be9c-92cfd2fa7cc8")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce932622-181d-4e66-8b3c-48314e7276b6")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe61a15-0d5c-4577-90da-1e5209f86b5c")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05848de-52fa-4da5-95f7-fa57504c57a4")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3910de8-5cba-41b8-b23e-e901cbf0e7b2")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46ce194-45a2-4043-b729-6106aadcc066")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fe0779-68a3-4b3c-828e-ba554e87f4fb")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0adfbe-810b-4035-9b40-c5acd93dbfdb")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd0d34b-897d-44f7-aef1-2b38ce725039")
+	)
+	(wire
+		(pts
+			(xy 179.07 76.2) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de46c2d4-c830-4c8e-9451-b2eb9bff7276")
+	)
+	(wire
+		(pts
+			(xy 38.1 90.17) (xy 40.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13bb3a9-b536-4e77-84dd-45ad303e2637")
+	)
+	(wire
+		(pts
+			(xy 153.67 92.71) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22ec44f-e1d1-4664-9193-6dea156299f5")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66c09cb-925b-4949-b9c4-f50d45a3bbf5")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 40.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91e1adb-5d0b-4391-b61a-62806359a18b")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e948fc46-1997-4996-b4e3-5b32c3148d73")
+	)
+	(wire
+		(pts
+			(xy 190.5 87.63) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1bcdce-d2c4-4bf5-8d0e-dbe0de83e2fa")
+	)
+	(wire
+		(pts
+			(xy 25.4 90.17) (xy 24.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f923fd63-9e7e-4bcd-ab6c-57bdae97ec4d")
+	)
+	(wire
+		(pts
+			(xy 190.5 95.25) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff83a6e5-f4b7-41da-a3b2-5ed28c83b1b8")
+	)
+	(text "The TAB is connected to the V OUT"
+		(exclude_from_sim no)
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7f9645-c42f-4767-9fa1-cc35a25e909c")
+	)
+	(text "Power consumption\n is 12mW "
+		(exclude_from_sim no)
+		(at 240.03 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b38fbaa-ef58-409d-a321-a5cc2d2c314d")
+	)
+	(text "Max dropout is 1.2V,  which is\nless than 3.3V-1.2V = 2.1V \nIt's desirable to connect 1.2V regulator\ninput to 3.3V regulator output"
+		(exclude_from_sim no)
+		(at 210.82 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "805898ec-8fff-4889-98e8-d2d8ac39c0b4")
+	)
+	(text "C1,C2,C5: ceramic\nC3,C4,C6,C7: tantalum\nR1,R2,R3: Thick film chip "
+		(exclude_from_sim no)
+		(at 176.53 102.87 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6eaa492-7b0e-45cb-ac07-c7461e9c7c59")
+	)
+	(hierarchical_label "USB_DM"
+		(shape input)
+		(at 40.64 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23a0d9e7-ebe2-4bcc-9db0-405765cd3075")
+	)
+	(hierarchical_label "5V_USB"
+		(shape input)
+		(at 44.45 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c168b0e-02c1-4fd9-a3d7-cfe0b939d101")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 165.1 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f1e6472-cf45-4143-b2f9-57916dc82465")
+	)
+	(hierarchical_label "1.2V"
+		(shape input)
+		(at 271.78 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bca777c-928b-45d6-b855-eacbbdf0996e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 154.94 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a6242cc-964e-4f10-9b36-d0f1badf36d3")
+	)
+	(hierarchical_label "USB_DP"
+		(shape input)
+		(at 40.64 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5b67b7-842b-43f4-8077-440f68108762")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 97.79 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa35823e-855c-4b9f-b786-602ecd6934cc")
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:Ferrite_Bead-Device-FPGA-para-todos-rescue")
+		(at 140.97 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17a32b09-9c59-455a-a4d0-d78aea4dda36")
+		(property "Reference" "FB2"
+			(at 140.97 69.2404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_Bead"
+			(at 140.97 71.5518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Ferrite_bead_0805"
+			(at 140.97 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Núcleos de ferrita WE-CBF 0805 SMD Bead 100MHz 1500Ohm 1KmA "
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "WE-CBF SMD EMI Suppression Ferrite Bead"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/445/742792097-538337.pdf"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "742792097 "
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Wurth-Electronics/742792097?qs=sGAEpiMZZMtdyQheitOmRVDURQLs966nb2bS15p5U18%3D"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "710-742792097 "
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "FerriteBead"
+			(at 140.97 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fdbea3c-75a6-40ba-a531-733fe49eefc6")
+		)
+		(pin "2"
+			(uuid "c707fae2-af97-49c5-8a33-cf165866a15b")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:C-Device-FPGA-para-todos-rescue")
+		(at 66.04 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ac78b9c-3be1-4888-9bfb-e49f70d4d7ba")
+		(property "Reference" "C1"
+			(at 68.961 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 68.961 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 67.0052 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling cap"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "SURFACE-MOUNT CERAMIC MULTILAYER CAPACITORS"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "CC0805KRX7R7BB103 "
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/CC0805KRX7R7BB103?qs=sGAEpiMZZMs0AnBnWHyRQAqZuYDIKiCDic8tFvJ0DLk1elEorQqHTA%3D%3D"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-CC0805KRX77BB103"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Ceramic - X7R TC material"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919b5d97-69a7-471e-8a31-68c80922430b")
+		)
+		(pin "2"
+			(uuid "e80fd693-0371-4387-b734-3f3f661daaf9")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:C-Device-FPGA-para-todos-rescue")
+		(at 179.07 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "227d871f-1dd5-440f-b038-97d75388c044")
+		(property "Reference" "C5"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 180.0352 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling cap - 6.3V"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "SURFACE-MOUNT CERAMIC MULTILAYER CAPACITORS"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "CC0805KRX7R5BB104 "
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/CC0805KRX7R5BB104?qs=UgE%2F0m3bTsYCB3fBtxx4RA%3D%3D"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-CC0805KRX75BB104 "
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Ceramic - X7R TC material"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfb95fcd-87ae-4213-8cd8-a31699480038")
+		)
+		(pin "2"
+			(uuid "4437a1ad-07b8-4c56-a0a2-1ff7ac016baa")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:+3.3V-power-FPGA-para-todos-rescue")
+		(at 160.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f4188b0-d009-4dfc-be27-e26903d0a6ce")
+		(property "Reference" "#PWR03"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 160.401 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b7b978e-9693-4922-8474-ebb70d294016")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue")
+		(at 90.17 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35a7d72b-8932-4ce2-af58-c4556d2589be")
+		(property "Reference" "#FLG02"
+			(at 90.17 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 90.17 71.7804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "055fbdc1-c458-4eeb-b6ff-ccff3d53765d")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "USB:micro_usb_b")
+		(at 31.75 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "423d59bf-2e2e-46ce-95ec-97e98b3f5b00")
+		(property "Reference" "J1"
+			(at 31.75 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "micro_usb_b"
+			(at 31.75 81.6864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:micro_usb_b_recpt_bttm_mnt_smt_th_tabs"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors MICRO AB RECEPT RA TH BTTM MNT"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "ZX62D-AB-5P8(30) "
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/185/X_CL0242-0027-5-30_2d-1620404.pdf"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hirose Connector"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "ZX62D-AB-5P8(30)"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Hirose-Connector/ZX62D-AB-5P830?qs=%2Fha2pyFadujEKYxkXBbZugpQpcYrElYJqPMaanuWSyofyh8OUBWIGQ%3D%3D"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "798-ZX62D-AB-5P830"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "-"
+			(at 31.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10806323-b66a-4055-b13c-ccdb86c4a5b5")
+		)
+		(pin "2"
+			(uuid "334332df-24eb-4a48-805e-80f08b222dff")
+		)
+		(pin "3"
+			(uuid "7ddc710a-493a-42f7-835c-1b65c4fc414d")
+		)
+		(pin "4"
+			(uuid "6681da88-10fd-44a5-bda3-646e912d9b9f")
+		)
+		(pin "5"
+			(uuid "a2cec545-25bd-40b6-86a5-53176e0c781a")
+		)
+		(pin "6"
+			(uuid "e6fc2325-7353-4d11-97bd-b7f5ababa59c")
+		)
+		(pin "7"
+			(uuid "d05afc55-03e0-4abd-9884-0c7141992507")
+		)
+		(pin "8"
+			(uuid "15d1f364-bcee-493d-b648-998543d1ea8e")
+		)
+		(pin "9"
+			(uuid "a40b2e1f-ab53-49e5-9a3c-8c6a4d0e03c6")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:LED_ALT-Device-FPGA-para-todos-rescue")
+		(at 106.68 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "449ecf98-458c-40b2-a3ec-6d38f5cacd5e")
+		(property "Reference" "D2"
+			(at 109.6772 89.2048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 109.6772 91.5162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:led_0805_recommended_land_pattern"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Blue 470nm 36mcd InGaN 68mW 2.9V "
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "SML-M13x/MN2x Series"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/348/sml-m13x_mn2x-e-1139175.pdf"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "SMLMN2BCTT86C"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/ROHM-Semiconductor/SMLMN2BCTT86C?qs=sGAEpiMZZMseGfSY3csMkZhfb9Ek0xqwPAN%2FA2UetydSB0c%2F%2FDZwRQ%3D%3D"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "755-SMLMN2BCTT86C"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "InGaN"
+			(at 198.12 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68c9e0ca-86a5-4ed0-8882-61d2a73a7d2f")
+		)
+		(pin "2"
+			(uuid "123715eb-1d81-4235-b6f9-15d82b08786c")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:CP1_Small-Device-FPGA-para-todos-rescue")
+		(at 134.62 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e97828-df51-4754-9afb-1290d37dd6be")
+		(property "Reference" "C4"
+			(at 136.9314 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 136.9314 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_AVX_Tantalum"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling capacitor"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "TPS SeriesLow ESR"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/40/tps-776850.pdf"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "TPSR106K006R1000"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/AVX/TPSR106K006R1000?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAcik2daETREIlI%3D"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "581-TPSR106K006R1000"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Tantalum"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ef9c2b1-5658-4ea5-b3ad-b809c941cdd8")
+		)
+		(pin "2"
+			(uuid "14ee2dc9-4eaf-4789-aed2-0d30f87a9bb9")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:Ferrite_Bead-Device-FPGA-para-todos-rescue")
+		(at 76.2 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fdd8b28-d564-4fd1-8927-9d5f94b98242")
+		(property "Reference" "FB1"
+			(at 76.2 69.2404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_Bead"
+			(at 76.2 71.5518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Ferrite_bead_0805"
+			(at 76.2 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Núcleos de ferrita WE-CBF 0805 SMD Bead 100MHz 1500Ohm 1KmA "
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "WE-CBF SMD EMI Suppression Ferrite Bead"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/445/742792097-538337.pdf"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "742792097 "
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Wurth-Electronics/742792097?qs=sGAEpiMZZMtdyQheitOmRVDURQLs966nb2bS15p5U18%3D"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "710-742792097 "
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "FerriteBead"
+			(at 76.2 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a27ee54-1ad1-4529-be34-fae3a5189103")
+		)
+		(pin "2"
+			(uuid "20e3c182-0dd7-4765-a58a-42c9e4627d8a")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LD1117xxx:LD1117S12")
+		(at 207.01 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60933bfa-31da-4d5e-9d18-6e65a5fb7d9a")
+		(property "Reference" "U2"
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S12CTR_SOT223"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-223"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V in to 3.3V, 1.2V output"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "LD1117 - Adjustable and fixed low drop positive voltage regulator"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "LD1117S12CTR"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/STMicroelectronics/LD1117S12CTR?qs=%2Fha2pyFadujIunIt7pOyBSnG%252BGJpbcbsyPaXFTMfmYWijg7jCjy5xQ%3D%3D"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "511-LD1117S12CTR "
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "-"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "591a89d9-6537-4a1a-9a5d-33cc76c47321")
+		)
+		(pin "2"
+			(uuid "39c946eb-6711-457c-b27c-b533174c6e3a")
+		)
+		(pin "3"
+			(uuid "f9dd23f0-00da-485f-90ef-6f0899357d00")
+		)
+		(pin "4"
+			(uuid "ed588a3f-9cc2-4d07-bbef-8caa5693454f")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:R-Device-FPGA-para-todos-rescue")
+		(at 232.41 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "660a4328-c1c6-4118-aab0-3767b978c3b9")
+		(property "Reference" "R3"
+			(at 234.188 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 234.188 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 230.632 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tolerance 1%"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "THICK FILM CHIP RESISTORS AUTOMOTIVE GRADE"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "AC0805FR-07120RL"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/AC0805FR-07120RL?qs=sGAEpiMZZMu61qfTUdNhG19HzxXL1i6iscRfwJYXkks%3D"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-AC0805FR-07120RL"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Thick film chip resistor"
+			(at -5.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c20949e-d5ec-49d8-84c7-c1b4a003d18c")
+		)
+		(pin "2"
+			(uuid "d973830e-bbdc-4e5a-ba04-48c4adcbc7d5")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:TestPoint-Connector-FPGA-para-todos-rescue")
+		(at 83.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d83e0c0-67ad-496d-89a7-df701e32c773")
+		(property "Reference" "TP1"
+			(at 85.2932 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_D1.5mm"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec0edf2-bac1-444b-9acb-653c3d21600b")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:CP1_Small-Device-FPGA-para-todos-rescue")
+		(at 222.25 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6da93f38-2fa0-4a0d-8c8c-560a7c4e2365")
+		(property "Reference" "C7"
+			(at 224.5614 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 224.5614 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_AVX_Tantalum"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling capacitor"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "TPS SeriesLow ESR"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/40/tps-776850.pdf"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "TPSR106K006R1000"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/AVX/TPSR106K006R1000?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAcik2daETREIlI%3D"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "581-TPSR106K006R1000"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Tantalum"
+			(at 222.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "def7fc3c-fcc9-4df1-b568-4aceae22f04c")
+		)
+		(pin "2"
+			(uuid "8857f1b8-8b80-44d3-84e9-4051084b1abd")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76321580-e6cd-48f4-a051-f6602e1d723c")
+		(property "Reference" "#FLG03"
+			(at 165.1 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 90.8304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2e6d3c1-a3f5-4491-9aff-d735a4024c29")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:R_Small-Device-FPGA-para-todos-rescue")
+		(at 41.91 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "795c3860-4acc-4b01-a3c7-aeadbc206067")
+		(property "Reference" "R1"
+			(at 45.72 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "THICK FILM CHIP RESISTORS AUTOMOTIVE GRADE"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "AC0805JR-070RL"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/AC0805JR-070RL?qs=sGAEpiMZZMu61qfTUdNhG2gsBIEdmNIDGlJo%2F7ntbiw%3D"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-AC0805JR-070RL"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Thick film chip resistor"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9d5727b-6c2f-4e3b-a2d3-280d1d834720")
+		)
+		(pin "2"
+			(uuid "afaf7bbd-67f1-4033-be33-7d2185a579a1")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LD1117xxx:LD1117S33")
+		(at 118.11 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a86d9ac-3a8d-4eec-af5b-467be6aebf08")
+		(property "Reference" "U1"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S33CTR_SOT223"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOT-223"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V in to 3.3V output"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "LD1117 - Adjustable and fixed low drop positive voltage regulator"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "LD1117S33CTR"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/STMicroelectronics/LD1117S33CTR?qs=sGAEpiMZZMv1cg40gLeF3niL8zTTD8ml"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "511-LD1117S33C"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "-"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93d7b2cc-fa9d-44c9-92e6-10562653f3cb")
+		)
+		(pin "2"
+			(uuid "73d5b194-80fd-4ccb-ac72-c2874ad6c0ea")
+		)
+		(pin "3"
+			(uuid "dd2c35c2-e97d-47af-b0cb-f8b2baee432e")
+		)
+		(pin "4"
+			(uuid "8171f68f-9839-4be4-ac08-6accbbc44eb6")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:R-Device-FPGA-para-todos-rescue")
+		(at 106.68 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80aa0241-84bf-4f14-90ab-08c185222caf")
+		(property "Reference" "R2"
+			(at 108.458 80.1116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 108.458 82.423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 104.902 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "THICK FILM CHIP RESISTORS AUTOMOTIVE GRADE"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_6-1152827.pdf"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "AC0805JR-071KL"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/AC0805JR-071KL?qs=sGAEpiMZZMu61qfTUdNhG2gsBIEdmNIDDxLhejvEQGw%3D"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-AC0805JR-071KL"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Thick film chip resistor"
+			(at -5.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871cbdb5-c056-4106-a773-53140c296b03")
+		)
+		(pin "2"
+			(uuid "082d5314-8d51-4213-8791-ae3134a94939")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:C-Device-FPGA-para-todos-rescue")
+		(at 83.82 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "874fbd20-f9e4-481d-89a1-531ca4026f4c")
+		(property "Reference" "C2"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 84.7852 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling cap - 6.3V"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "SURFACE-MOUNT CERAMIC MULTILAYER CAPACITORS"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "CC0805KRX7R5BB104 "
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Yageo/CC0805KRX7R5BB104?qs=UgE%2F0m3bTsYCB3fBtxx4RA%3D%3D"
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "603-CC0805KRX75BB104 "
+			(at 83.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Ceramic - X7R TC material"
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa716f68-d151-475e-adab-f214f23fbc02")
+		)
+		(pin "2"
+			(uuid "da76432f-4be4-45da-a4a0-e98509a490d2")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue")
+		(at 175.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97f6cd57-496e-4362-9138-2c761f821654")
+		(property "Reference" "#FLG04"
+			(at 175.26 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 71.7804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe84daa-27e3-4d91-8625-b436fcbe3b56")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:TestPoint-Connector-FPGA-para-todos-rescue")
+		(at 140.97 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0dfd1a7-91a0-4e7c-85db-80d28916f07d")
+		(property "Reference" "TP2"
+			(at 142.4432 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_D1.5mm"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d87f6d-eb6d-40cd-84f2-dbb25dd69f60")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:+1V2-power-FPGA-para-todos-rescue")
+		(at 257.81 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5295ba9-fd8c-4503-898e-50cd9da9125e")
+		(property "Reference" "#PWR05"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V2"
+			(at 258.191 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7c5803-5fc6-4da4-8993-c06e82b4249a")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:CP1_Small-Device-FPGA-para-todos-rescue")
+		(at 95.25 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8233300-4bf2-417c-b3a2-b79a02dfda27")
+		(property "Reference" "C3"
+			(at 97.5614 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 97.5614 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_AVX_Tantalum"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling capacitor"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "TPS SeriesLow ESR"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/40/tps-776850.pdf"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "TPSR106K006R1000"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/AVX/TPSR106K006R1000?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAcik2daETREIlI%3D"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "581-TPSR106K006R1000"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Tantalum"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7058eff3-f496-4043-b069-711ec6f0c65d")
+		)
+		(pin "2"
+			(uuid "f53d1299-4414-4044-a96d-d972e04cdd8d")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:+5VP-power-FPGA-para-todos-rescue")
+		(at 48.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ada78ea0-eabe-46ba-b1fe-0884e58678df")
+		(property "Reference" "#PWR01"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 48.641 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4177256-4c6f-41ae-90f7-57b4f8595ef3")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:Ferrite_Bead-Device-FPGA-para-todos-rescue")
+		(at 238.76 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b168498a-83d7-4bf5-bf5c-1114e5e8d500")
+		(property "Reference" "FB3"
+			(at 238.76 69.2404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_Bead"
+			(at 238.76 71.5518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Ferrite_bead_0805"
+			(at 238.76 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Núcleos de ferrita WE-CBF 0805 SMD Bead 100MHz 1500Ohm 1KmA "
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "WE-CBF SMD EMI Suppression Ferrite Bead"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/445/742792097-538337.pdf"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "742792097 "
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Wurth-Electronics/742792097?qs=sGAEpiMZZMtdyQheitOmRVDURQLs966nb2bS15p5U18%3D"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "710-742792097 "
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "FerriteBead"
+			(at 238.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51199f26-9e23-4d5f-882c-64f6bd01b790")
+		)
+		(pin "2"
+			(uuid "8556f3d3-a280-44ff-a7aa-61ff59a99151")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:CP1_Small-Device-FPGA-para-todos-rescue")
+		(at 190.5 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b223fd87-b81b-4ae7-b653-a7e48d6610e6")
+		(property "Reference" "C6"
+			(at 192.8114 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 192.8114 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:C_0805_AVX_Tantalum"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoupling capacitor"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "TPS SeriesLow ESR"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/40/tps-776850.pdf"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "TPSR106K006R1000"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/AVX/TPSR106K006R1000?qs=sGAEpiMZZMuEN2agSAc2pkIWJcW2hAcik2daETREIlI%3D"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "581-TPSR106K006R1000"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "Tantalum"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a894591-ee86-4b95-a79b-a94d6219b0f2")
+		)
+		(pin "2"
+			(uuid "7f314c21-1845-4706-85e1-f4ba329f8164")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:GND-power-FPGA-para-todos-rescue")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd3ebcf6-11f5-4bf3-b488-e7fdb35d5e30")
+		(property "Reference" "#PWR04"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.227 99.6442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea71060-0e42-46c8-958f-56ae25e7ee03")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue")
+		(at 250.19 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb791c9e-a356-46c6-814d-6d9e6819941e")
+		(property "Reference" "#FLG05"
+			(at 250.19 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 250.19 71.7804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84dcb941-69af-4d2a-b7c0-bff757c6faa8")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:TestPoint-Connector-FPGA-para-todos-rescue")
+		(at 148.59 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7fb092d-fd5f-47c3-93d7-0fae4557fa70")
+		(property "Reference" "TP3"
+			(at 150.0632 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_D1.5mm"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d64d369-16ae-41b2-a7f3-28e12db8ea71")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:TestPoint-Connector-FPGA-para-todos-rescue")
+		(at 262.89 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de545b26-fa0f-4c05-baaf-ce8f7cccee6e")
+		(property "Reference" "TP4"
+			(at 264.3632 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.16 74.93 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_D1.5mm"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65616915-18ab-4832-b075-e95629fb6e37")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:+5V-power-FPGA-para-todos-rescue")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebcca661-811d-491a-9088-50a663058564")
+		(property "Reference" "#PWR02"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.981 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49329fe2-00c9-48ee-b41c-fc16323475a4")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:PWR_FLAG-power-FPGA-para-todos-rescue")
+		(at 58.42 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7f069fd-d3e1-4fad-a2d2-b22752f9fd30")
+		(property "Reference" "#FLG01"
+			(at 58.42 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 71.7804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1277fd38-f1a6-4e29-b5d4-388d35fec1eb")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA para todos-rescue:D_Zener-Device-FPGA-para-todos-rescue")
+		(at 58.42 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbdcaa55-cc08-4a83-a19a-9422ed22dfe9")
+		(property "Reference" "D1"
+			(at 60.4266 85.1916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 49.53 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:D_SMA"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diodes 5.6V 1W"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EmptyField" "-"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetName" "SMAZ5V1 -SMAZ39 - 1.0W SURFACE MOUNT ZENER DIODE"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetLink" "https://ar.mouser.com/datasheet/2/115/ds18015-38228.pdf"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "SMAZ5V6-13-F"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderLink" "https://ar.mouser.com/ProductDetail/Diodes-Incorporated/SMAZ5V6-13-F?qs=sGAEpiMZZMtQ8nqTKtFS%2FFfrBP9wbtqTXJvVNsP1s18%3D"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderOrderCode" "621-SMAZ5V6-F"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentTechnology" "-"
+			(at 58.42 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4bd8a8-e5e9-4ade-ad83-7e86cc16e425")
+		)
+		(pin "2"
+			(uuid "cfab9fd9-3079-4d2c-a513-f1f0240ab631")
+		)
+		(instances
+			(project "Power"
+				(path "/015be6f9-3075-456d-bb18-9c73124273a3"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
