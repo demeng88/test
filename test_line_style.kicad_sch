@@ -1,0 +1,133 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a96e74f5-bfd0-44f6-8953-899141de67da")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "12e39d86-0d45-4c2e-b81d-6b25f54e8128")
+	)
+	(polyline
+		(pts
+			(xy 68.58 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8cfa2d-a04e-4baa-b658-fd5f6c8b8790")
+	)
+	(polyline
+		(pts
+			(xy 77.47 129.54) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "5c27a2c7-28fa-40ce-b926-b72b450dd071")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.74) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd1cb0b-58d2-4e4e-b6aa-5d1e8d25d895")
+	)
+	(polyline
+		(pts
+			(xy 140.97 143.51) (xy 140.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77af7838-985e-49a7-87b4-22a07a841bde")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecb646c-5000-4369-9f63-993e1a18c13e")
+	)
+	(polyline
+		(pts
+			(xy 134.62 129.54) (xy 134.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8859a3f-f009-44f9-8ce8-cc8a50ff1661")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fa2ac2-d41a-4bbb-be16-24c8559a54a7")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c728bc7e-ece4-4d53-b095-c113aa162fe6")
+	)
+	(polyline
+		(pts
+			(xy 85.09 144.78) (xy 140.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cf956334-7ac6-4094-b761-6c397bac9597")
+	)
+	(wire
+		(pts
+			(xy 129.54 64.77) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e32bee-6b28-452b-837d-2abd747ef080")
+	)
+	(wire
+		(pts
+			(xy 68.58 64.77) (xy 129.54 64.77)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e5d336ce-9a7b-4150-9b64-110d57a6f8f6")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
